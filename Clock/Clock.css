@@ -10,14 +10,20 @@ body {
     align-items: center;
     min-height: 100vh;
     background: #2f363e;
+    
 }
 
 .container {
     position: relative;
+    width: 50%;
+    height: 50%;
+
+
 }
 
 .clock {
     position: relative;
+    margin: auto;
     width: 450px;
     height: 450px;
     background: #2f363e;

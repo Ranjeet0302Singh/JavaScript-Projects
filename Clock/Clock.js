@@ -9,7 +9,7 @@ setInterval(() => {
   let mm = day.getMinutes() * 6;
   let ss = day.getSeconds() * 6;
 
-  hr.style.transform = `rotateZ(${hh + mm / 12}deg)`;
-  mn.style.transform = `rotateZ(${mm}deg)`;
-  sc.style.transform = `rotateZ(${ss}deg)`;
-});
+  hr.style.transform = `rotate(${hh + mm / 12}deg)`;
+  mn.style.transform = `rotate(${mm}deg)`;
+  sc.style.transform = `rotate(${ss}deg)`;
+},1000);
